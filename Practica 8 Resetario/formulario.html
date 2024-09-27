@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <title>Cafetería</title>
+</head>
+<body background="img/fondo rosa.jpg">
+
+ <header>
+  <h1>Miranda's coffee</h1>
+ </header>
+
+ <nav>
+  <a href="index.html">Inicio</a><br>
+  <a href="formulario.html">Formulario</a><br>
+  <a href="recetas.html">Mis recetas</a><br>
+  <a href="Desarrolladora.html">Desarrolladora</a><br>
+ </nav>
+
+ <main>
+  <h2 align="center">FORMULARIO DE VENTA/COMPRA</h2>
+  <div align="center">
+ <form action="mailto:Luzmirandadelossantos@gmail.com" method="POST">
+  <p>
+    <label for="usuario">Nombre Cliente:</label>
+    <input type="text" name="usuario" maxlength="32" placeholder="coloca tu nombre">
+  </p>
+    
+    <hr width="23%">
+
+    <p>
+      <label for="telefono">Telefono</label>
+      <input type="text" name="telefono" maxlength="16" placeholder="Coloca tu numero">
+    </p>
+     
+    <hr width="18%">
+
+    <p>
+    <label for="comida">Comida</label>
+      <select name="comida" size="1">
+         <option value="inicio">...</option>
+         <option value="flan">Flan</option>
+         <option value="cafe">Merengue</option>
+         <option value="hotcakes">Frappé</option>
+      </select>
+  </p>
+     
+    <hr width="10%">
+
+    <p>
+      <label for="fecha">Fecha de la compra:</label>
+      <input type="date" name="fecha">
+    </p>
+    
+    <hr width="13%">
+
+    <p>
+      <label for="pago">Forma de pago</label> <br>
+      <input type="radio" name="pago" value="efectivo" checked>efectivo<br>
+      <input type="radio" name="pago" value="tarjeta">tarjeta<br>
+    </p>
+
+    <p>
+      <input type="submit" name="enviar" value="Enviar">
+      <input type="reset" name="limpiarform" value="Borrar">
+    </p>
+   </div>
+ </form>
+ </main>
+ <footer>
+  <p>Miranda's coffee  - TODOS LOS DERECHOS RESERVADOS</p>
+  <p>De Los Santos Arvizu Luz Miranda</p>
+ </footer>
+</body>
+</html>
